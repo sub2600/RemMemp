@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Panel</title><link rel='stylesheet' href='static/css/style.css'></head>
+<body style='background-color:#23baba;'>
+<h2>Admin Panel</h2>
+<form id='memberForm'>
+<input type='text' placeholder='Name' id='name'><br>
+<input type='text' placeholder='Electorate' id='electorate'><br>
+<input type='text' placeholder='Party' id='party'><br>
+<select id='house'><option value='LA'>LA</option><option value='LC'>LC</option></select><br>
+<input type='text' placeholder='Image URL' id='imageUrl'><br>
+<input type='file' id='imageFile'><br>
+<button type='button' onclick='saveMember()'>Save</button>
+</form>
+<div id='preview'></div>
+<a href='index.html'><div class='tile'>Exit back to main page</div></a>
+<script src='static/js/admin.js'></script>
+</body>
+</html>
